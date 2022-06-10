@@ -1,0 +1,24 @@
+.containerhm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #75747b;
+    height: 100vh;
+}
+
+.textarea{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.story{
+    width: 700px;
+}
+
+.navbar{
+    background-color: dimgray!important;;
+}

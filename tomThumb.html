@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">Murat's homework</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="madLibs.html">Mad Libs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tomThumb.html">Tom Thumb</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="containerhm">
+        <div style="font-size: 40px">
+            Tom Thumb
+        </div>
+        <div class="container border">
+            <div class="textarea mt-3">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Image width (px)" id="width">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Image height (px)" id="height">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Number of colors" id="colors">
+                </div>
+            </div>
+            <button type="button" class="btn btn-success mb-3">Calculate file size</button>
+        </div>
+        <div class="calculation border my-3 p-3">
+            <p class="fst-italic fs-5"></p>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index2.js"></script>
+</body>
+</html>
