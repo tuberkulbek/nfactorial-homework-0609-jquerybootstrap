@@ -1,3 +1,5 @@
+let $;
+$ = require("jquery");
 $("document").ready(function (){
     let size = 0
     $(".btn").on("click", ()=>{
