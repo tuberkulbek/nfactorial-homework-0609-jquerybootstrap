@@ -1,5 +1,3 @@
-let $;
-$ = require("jquery");
 $("document").ready(function (){
     $(".btn").on("click", ()=>{
         let name = $("#name").val();
