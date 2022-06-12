@@ -1,0 +1,21 @@
+{
+  "name": "nfactorial-homework-0609-jquerybootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git add .\n\necho 'Commit message:'\nread commit\n\ngit commit -m \"$commit\"\n\ngit push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuberkulbek/nfactorial-homework-0609-jquerybootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuberkulbek/nfactorial-homework-0609-jquerybootstrap/issues"
+  },
+  "homepage": "https://github.com/tuberkulbek/nfactorial-homework-0609-jquerybootstrap#readme"
+}

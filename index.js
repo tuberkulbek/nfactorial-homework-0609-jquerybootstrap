@@ -12,3 +12,13 @@ $("document").ready(function (){
         storyToTell.append(story)
     })
 })
+// const playMusic = () => {
+//     if(audio.paused){
+//         audio.play()
+//         musicPlay.setAttribute("class", "fi fi-br-pause")
+//         trackName.innerText = trackList[num]
+//     }else{
+//         audio.pause()
+//         musicPlay.setAttribute("class", "fi fi-br-play")
+//     }
+// }
